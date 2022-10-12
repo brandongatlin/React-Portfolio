@@ -3,8 +3,6 @@ import About_Me from '../../assets/About_Me.jpg';
 
 
 function About() {
-
-
     return (
         <section>
             <h2>Who am I?</h2>

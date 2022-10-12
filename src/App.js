@@ -19,8 +19,8 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div id="app">
-      <div id="header">
+    <div>
+      <div>
         <Header></Header>
         <Nav
           categories={categories}
