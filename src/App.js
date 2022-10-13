@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
 import Header from './components/Header';
 import Project from './components/Project';
-import Nav from './components/Nav';
+import Navigation from './components/Nav';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
@@ -19,14 +19,14 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div>
-      <div>
+    <div id="app">
+      <div id="header">
         <Header></Header>
-        <Nav
+        <Navigation
           categories={categories}
           setCurrentCategory={setCurrentCategory}
           currentCategory={currentCategory}
-        ></Nav>
+        ></Navigation>
       </div>
       <div id="main">
         {currentCategory === categories[0] && <About></About>}

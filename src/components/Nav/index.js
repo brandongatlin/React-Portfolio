@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Nav(props) {
+function Navigation(props) {
 
     const {
         categories = [],
@@ -23,4 +23,4 @@ function Nav(props) {
     );
 }
 
-export default Nav;
+export default Navigation;

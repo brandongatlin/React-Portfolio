@@ -3,15 +3,19 @@ import React from 'react';
 function Resume() {
     return (
         <div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="bjennings-resume-2022.pdf" target="blank">Resume</a>
-                    </li>
-                </ul>
-            </nav>
+            <h2 id="Portfolio">My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Node.JS</li>
+                <li>Express.JS</li>
+                <li>Mongo</li>
+                <li>React</li>
+            </ul>
+            <a id="download" href="https://drive.google.com/file/d/1PmbCi0_cgUi42imHmde-1MWFDsiBOoIw/view?usp=sharing">Download my Resume here</a>
         </div>
-    )
+    );
 }
 
 export default Resume;
