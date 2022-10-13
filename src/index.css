@@ -49,7 +49,7 @@ body {
 }
 
 #About_Me {
-  max-height: 300px;
+  max-height: 200px;
   margin: 10px;
   border: 0px 2px solid var(--dark);
   border-radius: 10px;
@@ -80,7 +80,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Aouar", cursive;
+  font-family: "Glitten", cursive;
   font-size: 80px;
   color: black;
   margin: auto;
@@ -107,11 +107,6 @@ h6 {
 h1 {
   font-size: 2.25rem;
 }
-
-/* h2 {
-  font-size: 2rem;
-  font-weight: 500;
-} */
 
 h3 {
   font-size: 1.75rem;
@@ -205,6 +200,8 @@ input:focus {
 li {
   color: var(--dark);
   list-style: none;
+
+  text-align: left;
 }
 
 #nav {
